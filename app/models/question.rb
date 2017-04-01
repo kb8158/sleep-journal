@@ -4,6 +4,6 @@ class Question < ApplicationRecord
   validates :booze, presence: true
   validates :workout, presence: true
   validates :date, presence: true
-  validates :comments, presence:true 
+  validates :comments, presence:true
 
 end
